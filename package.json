@@ -1,0 +1,16 @@
+{
+  "name": "wiki-games",
+  "version": "1.0.0",
+  "description": "General Wiki-games",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "scripts": {
+    "sass": "node-sass src/styles/scss/styles.scss src/styles/css/styles.css -w --output-style compressed"
+  },
+  "keywords": [],
+  "author": "Dimas Camillo",
+  "license": "ISC"
+}
