@@ -6,7 +6,9 @@ export function Header() {
   return (
     <header className="flex justify-between align-middle">
       <figure className="w-40">
-        <img src={logo} className="w-full object-cover" />
+        <NavLink to="/">
+          <img src={logo} className="w-full object-cover" />
+        </NavLink>
       </figure>
       <nav className="flex gap-5 items-center ">
         <NavLink className="hover:text-blue-500 transition-all" to="/">
